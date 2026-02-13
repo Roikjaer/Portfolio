@@ -1,21 +1,30 @@
 .title{
     text-align: center;
-    font-size: 200px;
+    font-size: 50px;
     color: darkred;
     font-style: italic;
     margin-top: 60px;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
 .row1{
-    border-radius: 25px;
-    border: 8px solid black;
+    border-radius: 10px;
+    border: 3px solid black;
     padding: 20px;
-    width: 1000px;
-    height: 600px;
+    width: 200px;
+    height: 100px;
     display: inline-flex;
-    margin-top: 400px;
-    margin-left: 450px;
-    align-content: space-between;
+    margin: 100px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #first{
